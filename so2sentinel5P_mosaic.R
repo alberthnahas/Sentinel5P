@@ -114,4 +114,4 @@ time.spent <- paste("Work has been completed in", how.many,"minutes")
 print(time.spent)
 
 
-### END OF LINE ###
+### END OF LINES ###
