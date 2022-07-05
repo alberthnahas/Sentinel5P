@@ -16,7 +16,7 @@ rm(list = ls())
 gc()
 start.clock <- Sys.time()
 
-### ASSIGN WORKING DIRECTORIES ###
+### ASSIGN WORKING DIRECTORY ###
 dir <- "~/Documents/SATELLITE/SENTINEL_5P/"
 
 ### CREATE ACCOUNT AT https://scihub.copernicus.eu/dhus/#/home ###
