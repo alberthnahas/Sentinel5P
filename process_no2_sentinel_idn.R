@@ -77,7 +77,7 @@ fn <- list.files(path = dir2,
                  all.files = FALSE, 
                  full.names = FALSE, 
                  recursive = FALSE)
-print(paste("There are ",length(fn), " netcdf file(s) in this directory."))
+print(paste("There are ",length(fn), " netcdf files in this directory."))
 
 
 ### CHECK FILE ATTRIBUTES ###
