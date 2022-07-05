@@ -65,7 +65,7 @@ records_no2 <- records[records$product_type == "L2__NO2___",]
 nrti_no2 <- records_no2 %>% filter(grepl('NRTI', record_id))
 # Download files
 set_archive(dir)
-records <- get_data(nrti_no2, dir_out = dir)
+records <- getSentinel_data(nrti_no2, dir_out = dir, hub = "s5p")
 
 
 ### COLLECT .nc FILES ON A LIST ###
