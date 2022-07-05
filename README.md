@@ -22,4 +22,4 @@ Hasil pemantauan NO<sub>2</sub> dari satelit berbeda dengan dari instrumen di pe
 ### Pranala Luar
 Misi Sentinel-5P: https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p<br>
 Akses data: https://s5phub.copernicus.eu/dhus/#/home<br>
-Data Harian Total Kolom NO<sub>2</sub>: https://cews.bmkg.go.id/NO2-daily-analysis-sentinel/
+Data harian Total Kolom NO<sub>2</sub>: https://cews.bmkg.go.id/NO2-daily-analysis-sentinel/
