@@ -2,7 +2,7 @@
 # This is an R script to process daily total column NO2 from SENTINEL-5P.            #   
 # Product info: https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p.   #
 # Refer to below comments for more detailed instructions/explanations.               #
-# Change line 60 to adjust to the right directory.                                   #
+# Change lines 20, 23, and 24 to adjust to the right directory and credentials.      #
 # Created by Alberth Nahas on 2022-06-26 04:00 pm WIB.                               #
 # Email: alberth.nahas@bmkg.go.id.                                                   #
 # Version 1.0.0.                                                                     #
