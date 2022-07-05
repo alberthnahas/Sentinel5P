@@ -12,10 +12,10 @@ Hasil pemantauan NO<sub>2</sub> dari satelit berbeda dengan dari instrumen di pe
 ### Sentinel-5P
 Sentinel-5P merupakan identitas misi peluncuran instrumen pengukuran komposisi kimia atmosfer yang dilakukan pada tanggal 13 Oktober 2017 menggunakan _polar-orbiting satellite_. Misi ini merupakan hasil kolaborasi antara European Space Agency dan Netherlands Space Office. Misi Sentinel-5P didedikasikan untuk melakukan pemantauan komposisi kimia atmosfer, polusi udara, dan lapisan ozon. Pemantauan ini dilakukan dengan mengaplikasikan instrumen TROPOMI (_TROPOspheric Monitoring Instrument_) yang bekerja pada panjang gelombang ultraviolet (UV), visible (VIS), near- (NIR) and - short-wavelength infrared (SWIR). Parameter kimia atmosfer yang dipantau meliputi ozon (O<sub>3</sub>), metana (CH<sub>4</sub>), formaldehida (CH<sub>2</sub>O), aerosol, karbon monoksida (CO), nitrogen dioksida (NO<sub>2</sub>), dan sulfur dioksida (SO<sub>2</sub>) di atmosfer. TROPOMI melakukan pengukuran setiap detik dengan resolusi spasial 3,5 x 7 km<sup>2</sup>.
 
-### Workflow Pengolahan Data
+### Workflow pengolahan data
 Data TROPOMI Total Kolom NO<sub>2</sub> di wilayah Indonesia (90BT-145BT, 10LU-15LS) melalui Sentinel-5P dikumpulkan setiap hari pada periode pemantauan antara pukul 13:00 WIB dan 16:30 WIB. Data satelit ini kemudian ditransformasi menjadi informasi spasial dengan resolusi 0,1 derajat x 0,1 derajat (~10 km) dengan menggunakan R. Informasi spasial ini disimpan sebagai data dengan format NetCDF (.nc) sehingga dapat digunakan sebagai input data pada aplikasi berbasis Sistem Informasi Geografis (GIS). Informasi spasial dapat diolah menjadi gambar dengan format PNG (.png) menggunakan GrADS atau aplikasi lainnya yang sejenis.
 
-### Pranala Luar
+### Pranala luar
 Misi Sentinel-5P: https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p<br>
 Akses data: https://s5phub.copernicus.eu/dhus/#/home<br>
 Data harian Total Kolom NO<sub>2</sub>: https://cews.bmkg.go.id/NO2-daily-analysis-sentinel/
