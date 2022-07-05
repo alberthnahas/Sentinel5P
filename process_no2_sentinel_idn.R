@@ -16,6 +16,13 @@ rm(list = ls())
 gc()
 start.clock <- Sys.time()
 
+### ASSIGN WORKING DIRECTORIES ###
+dir <- "~/Documents/SATELLITE/SENTINEL_5P/"
+
+### CREATE ACCOUNT AT https://scihub.copernicus.eu/dhus/#/home ###
+user <- "youraccount"
+pass <- "yourpassword"
+
 
 ### INCLUDE LIBRARIES ###
 require(getSpatialData)
@@ -46,7 +53,7 @@ set_aoi(sps)
 
 
 ### LOGIN TO ACCESS PRODUCTS ###
-login_CopHub(username = "alberth.nahas", password = "downloadsentinel")
+login_CopHub(username = user, password = pass)
 
 
 ### QUERY THE DATA BASED ON TIME AND PRODUCTS ###
@@ -57,7 +64,6 @@ records <- get_records(time_range = c(start_date, end_date),
 records_no2 <- records[records$product_type == "L2__NO2___",]
 nrti_no2 <- records_no2 %>% filter(grepl('NRTI', record_id))
 # Download files
-dir <- "~/Documents/SATELLITE/SENTINEL_5P/"
 set_archive(dir)
 records <- get_data(nrti_no2, dir_out = dir)
 
